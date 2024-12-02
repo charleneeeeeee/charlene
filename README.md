@@ -1,53 +1,55 @@
 # wk4_fed_charlene
-One or two paragraphs providing an overview of your project. Tell us about your project.
 
-Essentially, this part is your sales pitch.
+The Olive Young e-commerce website redesign aims to provide users with a seamless and modern online shopping experience, focusing on premium Korean skincare products. The project targets skincare enthusiasts, beauty experts, and those looking for quality skincare solutions. The goal of the website is to offer a visually appealing, user-friendly interface that allows users to easily browse, explore, and purchase products while receiving detailed information and recommendations.
 
 ## Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The design process for this project focused on creating a sleek, minimalist, and visually engaging website for OliveYoung's target audience, skincare consumers. This group values both aesthetics and functionality, requiring an easy-to-navigate website that offers product details, user-friendly shopping experiences, and a modern feel. To achieve these objectives, the design incorporates intuitive layouts, responsive elements, and clear call-to-action buttons, ensuring the website is accessible and visually appealing on any device.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+User stories:
+- As a skincare enthusiast, I want to browse through various skincare products, so that I can find the best options for my skincare routine.
+- As a new user, I want to sign up for an account, so that I can receive marketing information and updates about discounts and events.
+- As a shopper, I want to add items to my cart and proceed to checkout, so that I can complete my purchase quickly and easily.
+- As a visitor, I want to access detailed product descriptions and images, so that I can make informed purchasing decisions.
+- As a customer, I want to easily access the contact page, so that I can reach out for support, ask questions, or provide feedback about my shopping experience.
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
+- Product Browsing and details
+  - Provides information about each product and allows users to view various skincare products, complete with images, stock, and prices.
+- User Signup
+  - Lets users create an account to receive personalized offers and updates, along with a checkbox for opting in to marketing emails.
+- Shopping Cart
+  - Enables users to add products to their cart and proceed to checkout with a smooth and simple interface.
+- Responsive Design
+  - Ensures that the website is optimized for both desktop and mobile users, providing a seamless experience across all devices.
+    
 ### Features Left to Implement
-- Another feature idea
+- User Profile Page
+  - A personalized user profile that allows users to track their orders, manage their preferences, and view past purchases.
+- Advanced Product Filtering
+  - An enhanced filtering system that helps users search products by type, ingredients, skin concerns, or price range.
 
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - [JQuery](https://jquery.com/)
   - The project uses JQuery to simplify DOM manipulation.
+- [HTML](https://html.com/)
+  - HTML5 was used to structure the content of the website, ensuring semantic correctness and SEO optimization.
+- [CSS](https://css.com/)
+  - CSS3 was used to style the website, with Flexbox and media queries for responsive design to enhance the user experience.
+- [JavaScript](https://javascript.com/)
+  - JavaScript was used for interactive features, such as form validation, the shopping cart functionality, and dynamic page loading.
+- [VS Code](https://code.visualstudio.com/)
+  - Visual Studio Code was used as the integrated development environment (IDE) to write and manage the website's code. 
+
 ## Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+My contact form does not allow the user to submit an empty form and an error message about the required fields appears. When the user submits the form with all inputs valid, it is verified and a success message appears. My project works on both full screen computer size as well as mobile view.
 
-1. Contact form:
-   - Go to the "Contact Us" page
-   - Try to submit the empty form and verify that an error message about the required fields appears
-   - Try to submit the form with an invalid email address and verify that a relevant error message appears
-   - Try to submit the form with all inputs valid and verify that a success message appears.
-   
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Interesting bugs or problems I discovered during my testing, even if I haven't addressed them yet.
+- I could not get my products to be in one straight line and they ended up being split into 2 different rows and the one below was slightly bigger
 
 ## Credits
 ### Content
-- The text for section Y was copied from the Wikipedia article Z
+- [OLIVEYOUNG website](https://global.oliveyoung.com/)
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from oliveyoung's website.
 ### Acknowledgements
-- I received inspiration for this project from X
+- I received inspiration for this project from oliveyoung, a korean skincare brand.
